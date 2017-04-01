@@ -1,21 +1,42 @@
 ﻿<!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>Makes "field" required and credit card only.</title>
-<link rel="stylesheet" href="https://jqueryvalidation.org/files/demo/site-demos.css">
-<link> type="text/javascript src="app.js</script>
- 
+	<meta charset="utf-8">
+	<title>Makes "field" required and credit card only.</title>
+	<link rel="stylesheet" href="https://jqueryvalidation.org/files/demo/site-demos.css">
+	<link rel="stylesheet" type="text/css" href="assets/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/reset.css">
+	
 </head>
 <body>
-<form id="myform">
-<label for="field">Required, creditcard (try 446-667-651): </label>
-<input class="left" id="field" name="field">
-<br/>
-<input type="submit" value="Validate!">
-</form>
-<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
-<script src="https://cdn.jsdelivr.net/jquery.validation/1.15.0/jquery.validate.min.js"></script>
-<script src="https://cdn.jsdelivr.net/jquery.validation/1.15.0/additional-methods.min.js"></script>
+	<div id="wrapper">
+		<div id="bulb">
+			<div id="bulb-top"></div>
+			<div id="bulb-middle"></div>
+			<div id="bulb-bottom"></div>
+		</div>
+		<div id="bulb-base">
+			<div id="bulb-base-top"></div>
+			<div id="bulb-base-middle">
+				<div class="rivet rivet-short"></div>
+				<div class="rivet rivet-long"></div>
+				<div class="rivet rivet-short"></div>
+				<div class="rivet rivet-long"></div>
+				<div class="rivet rivet-short"></div>
+			</div>
+			<div id="bulb-base-bottom"></div>
+		</div>
+	</div>
+
+	<form id="myform">
+		<label for="field">Required, creditcard (try 446-667-651): </label>
+		<input class="left" id="field" name="field">
+		<br/>
+		<input type="submit" value="Validate!">
+	</form>
+	<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/jquery.validation/1.15.0/jquery.validate.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/jquery.validation/1.15.0/additional-methods.min.js"></script>
+	<link> type="text/javascript src="app.js</script>
 </body>
 </html>
